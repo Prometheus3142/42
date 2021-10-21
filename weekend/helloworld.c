@@ -12,8 +12,7 @@ int main(void)
 {
     char output[] = "HelloWorld!";
     int output_length = strlen(output);
-    loopit(output, output_length);
-    
+    loopit(output, output_length);   
 return 0;
 }
 
@@ -23,7 +22,6 @@ int loopit(char *output, int output_length)
     {
         printit(output[i]);  
     }
-
     putchar('\n');
 }
 
